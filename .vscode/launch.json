@@ -8,7 +8,7 @@
           "program": "${file}",
           "cwd": "${workspaceFolder}",
           "env": {
-            "PYTHONPATH": "${workspaceFolder}/openhands-sdk${pathSeparator}${workspaceFolder}/openhands-tools${pathSeparator}${env:PYTHONPATH}"
+            "PYTHONPATH": "${workspaceFolder}/openhands-sdk:${workspaceFolder}/openhands-tools:${env:PYTHONPATH}"
           },
           "console": "integratedTerminal",
           "justMyCode": false
