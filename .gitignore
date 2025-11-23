@@ -161,9 +161,9 @@ cython_debug/
 
 # VS Code: Ignore all but certain files that specify repo-specific settings.
 # https://stackoverflow.com/questions/32964920/should-i-commit-the-vscode-folder-to-source-control
-.vscode/**/*
-!.vscode/extensions.json
-!.vscode/tasks.json
+#.vscode/**/*
+#!.vscode/extensions.json
+#!.vscode/tasks.json
 
 # VS Code extensions/forks:
 .cursorignore
